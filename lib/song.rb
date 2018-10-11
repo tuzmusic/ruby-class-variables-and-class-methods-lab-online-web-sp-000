@@ -12,7 +12,7 @@ class Song
   @@count
 
   def self.count
-    @@ count
+    @@count
   end
 
 end
