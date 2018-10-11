@@ -40,7 +40,6 @@ class Song
     genres.each { |genre|
       hash[genre] = @@genres.count(genre)
     }
+    hash
   end
-  hash
-
 end
