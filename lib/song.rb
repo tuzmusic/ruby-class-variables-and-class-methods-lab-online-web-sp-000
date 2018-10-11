@@ -36,6 +36,7 @@ class Song
     artists.each { |artist|
       puts artist
     }
+    binding.pry
   end
 
   def self.genre_count
