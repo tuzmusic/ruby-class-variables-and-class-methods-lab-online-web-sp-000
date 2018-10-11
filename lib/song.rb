@@ -4,7 +4,7 @@ class Song
     @name = name
 
     @artist = artist
-    @@artists << artist unless @@artists.include?(artist)
+    @@artists << artist if !@@artists.include?(artist)
 
     @genre = genre
   @@genres << genre unless @@genres.include?(genre)
