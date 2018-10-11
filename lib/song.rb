@@ -32,15 +32,15 @@ class Song
   end
 
   def self.artist_count
-    hash = {}
-    artists.each { |artist|
-      puts artist
-    }
-    binding.pry
+
   end
 
   def self.genre_count
-
+    hash = {}
+    genres.each { |genre|
+      puts genre
+    }
+    binding.pry
   end
 
 end
