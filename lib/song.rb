@@ -7,10 +7,10 @@ class Song
 
     @artist = artist
     binding.pry
-    @@artists << artist if !@@artists.include?(artist)
+    @@artists << artist unless @@artists.include?(artist)
 
     @genre = genre
-  @@genres << genre unless @@genres.include?(genre)
+    @@genres << genre unless @@genres.include?(genre)
     @@count += 1
   end
 
