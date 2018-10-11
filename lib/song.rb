@@ -1,9 +1,12 @@
+require 'pry'
+
 class Song
 
   def initialize(name, artist, genre)
     @name = name
 
     @artist = artist
+    binding.pry
     @@artists << artist if !@@artists.include?(artist)
 
     @genre = genre
